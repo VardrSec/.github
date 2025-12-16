@@ -8,7 +8,7 @@
 
 ## 🎯 About VardrSec
 
-**VardrSec** is a penetration testing company specializing in API security assessments, vulnerability research, and security tool development.
+**VardrSec** is an Offensive Security Research Initiative specializing in API security assessments, vulnerability research, and security tool development.
 
 Founded by **Vidarr**, we focus on finding critical security vulnerabilities that automated scanners miss.
 
