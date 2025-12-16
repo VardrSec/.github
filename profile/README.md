@@ -26,7 +26,7 @@ Professional API Security Testing Framework
 
 ---
 
-## 💼 Services
+## 💼 Focus Areas
 
 ### API Security Assessment
 Comprehensive testing of REST, GraphQL, and SOAP APIs for:
