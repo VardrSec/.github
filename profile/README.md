@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="[RAW_IMAGE_URL_HERE](https://github.com/VardrSec/.github/blob/a61edf30f80ccac120c6d3a1d616bd6c5dbe344c/orgbanner.png)" alt="VardrSec Banner" width="100%" />
+</p>
+
+
 # VardrSec | Offensive Security Research & Tooling
 
 <p align="center">
