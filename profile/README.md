@@ -1,74 +1,94 @@
-# VardrSec | Offensive Security Research & Tooling
+# VardrSec
+
+### Independent offensive security research, practical tooling, and ethical testing methodology.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Focus-API%20Security-blue" />
-  <img src="https://img.shields.io/badge/Service-Penetration%20Testing-red" />
+  <img src="https://img.shields.io/badge/Research-Offensive%20Security-red" />
   <img src="https://img.shields.io/badge/Tools-Open%20Source-green" />
 </p>
 
-## 🎯 About VardrSec
+## About VardrSec
 
-**VardrSec** is an Offensive Security Research Initiative specializing in API security assessments, vulnerability research, and security tool development.
+**VardrSec** is an independent offensive security research and tooling initiative focused on application security, API security, web application testing, and practical security automation.
 
-Founded by **Jorge Aquino**, we focus on finding critical security vulnerabilities that automated scanners miss.
+Founded by **Jorge Aquino**, VardrSec focuses on building security tools, studying real vulnerability classes, and documenting repeatable testing methods.
+
+The project emphasizes vulnerabilities that often require deeper manual analysis, including authorization flaws, business logic issues, insecure API design, and weaknesses that automated scanners may miss.
 
 ---
 
-## 🛠️ Our Tools
+## Tools
 
 ### [VardrScanner](https://github.com/VardrSec/VardrScanner)
-Professional API Security Testing Framework
-- ✅ Authentication & Authorization Testing
-- ✅ IDOR Detection
-- ✅ SQL/NoSQL Injection
-- ✅ Security Configuration Analysis
-- ✅ Built for Bug Bounty & Pentesting
+
+**VardrScanner** is an API security testing framework designed for authorized security assessments, bug bounty research, and penetration testing workflows.
+
+Current focus areas include:
+
+- Authentication and authorization testing
+- IDOR / BOLA detection
+- API endpoint discovery
+- Injection testing
+- Security misconfiguration checks
+- Bug bounty and pentesting workflow support
 
 ---
 
-## 💼 Focus Areas
+## Focus Areas
 
 ### API Security Assessment
-Comprehensive testing of REST, GraphQL, and SOAP APIs for:
-- Authentication bypass vulnerabilities
-- Authorization flaws (IDOR, privilege escalation)
-- Injection vulnerabilities (SQLi, NoSQLi, XSS)
+
+Testing REST, GraphQL, and other API-driven applications for:
+
+- Broken authentication
+- Broken object level authorization
+- Privilege escalation
+- Mass assignment / excessive data exposure
+- Injection vulnerabilities
 - Business logic flaws
 - Security misconfigurations
 
-### Penetration Testing
-Full-scope security assessments:
-- Web application testing
-- Mobile API testing
-- Internal network assessments
-- Red team engagements
+### Web Application Security
+
+Practical testing of modern web applications, including:
+
+- OWASP Top 10 vulnerabilities
+- Session and access control issues
+- Input validation weaknesses
+- Misconfigured security controls
+- Vulnerability verification and documentation
 
 ### Security Tool Development
-Custom security tools and frameworks for:
-- Automated vulnerability scanning
-- Security monitoring
-- Compliance testing
+
+Building tools that support:
+
+- Vulnerability discovery
+- Reconnaissance workflows
+- Security automation
+- Repeatable testing methodology
+- Research documentation
 
 ---
 
 ## 📫 Contact
 
-- **GitHub**: [@VardrSec](https://github.com/VardrSec)
-- **Founder**: Vidarr
-- **Services**: Penetration Testing, Security Research, Tool Development
+- **GitHub**: [@jorge-aquino](https://github.com/jorge-aquino)
+- **Founder**: Jorge Aquino
+- **Focus**: API Security, Offensive Security Research, Security Tooling
 
 ---
 
-## 🎯 Specializations
+## Specializations
 
-`API Security` `Penetration Testing` `Vulnerability Research` `Bug Bounty` `OWASP Top 10` `Security Automation`
+`API Security` `Web Application Security` `Authorization Testing` `IDOR` `BOLA` `OWASP Top 10` `Bug Bounty` `Security Automation`
 
 ---
 
 <p align="center">
-  <b>Professional Security Testing | VardrSec</b>
+  <b>Practical Security Research & Tooling | VardrSec</b>
 </p>
 
 <p align="center">
-  <sub>Building tools and breaking things - ethically</sub>
+  <sub>Building tools. Testing ethically. Documenting the process.</sub>
 </p>
