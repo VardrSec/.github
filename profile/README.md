@@ -10,7 +10,7 @@
 
 **VardrSec** is an Offensive Security Research Initiative specializing in API security assessments, vulnerability research, and security tool development.
 
-Founded by **Vidarr**, we focus on finding critical security vulnerabilities that automated scanners miss.
+Founded by **Jorge Aquino**, we focus on finding critical security vulnerabilities that automated scanners miss.
 
 ---
 
