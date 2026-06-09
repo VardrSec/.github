@@ -1,11 +1,11 @@
 # VardrSec
 
-### Independent offensive security research, practical tooling, and ethical testing methodology.
+### Independent offensive security research, private tooling, and ethical testing methodology.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Focus-API%20Security-blue" />
   <img src="https://img.shields.io/badge/Research-Offensive%20Security-red" />
-  <img src="https://img.shields.io/badge/Tools-Open%20Source-green" />
+  <img src="https://img.shields.io/badge/Tools-Private%20Research-green" />
 </p>
 
 ## About VardrSec
@@ -14,16 +14,15 @@
 
 Founded by **Jorge Aquino**, VardrSec focuses on building security tools, studying real vulnerability classes, and documenting repeatable testing methods.
 
-The project emphasizes vulnerabilities that often require deeper manual analysis, including authorization flaws, business logic issues, insecure API design, and weaknesses that automated scanners may miss.
+The project emphasizes issues that often require deeper manual analysis, including authorization flaws, business logic vulnerabilities, insecure API design, and weaknesses that automated scanners may miss.
 
 ---
 
-## Tools
+## Private Research Tools
 
-### [VardrScanner](https://github.com/VardrSec/VardrScanner)
+### VardrScanner
 
-**VardrScanner** is an API security testing framework designed for authorized security assessments, bug bounty research, and penetration testing workflows.
-
+**VardrScanner** is a private API security testing framework under active development for authorized assessments, bug bounty research, and penetration testing workflows.
 Current focus areas include:
 
 - Authentication and authorization testing
@@ -32,6 +31,16 @@ Current focus areas include:
 - Injection testing
 - Security misconfiguration checks
 - Bug bounty and pentesting workflow support
+
+Public documentation and selected methodology notes are maintained through Jorge Aquino’s public GitHub profile.
+
+## Public Projects
+
+### [VardrMap](https://github.com/jorge-aquino/VardrMap)
+
+**VardrMap** is a full-stack bug bounty workflow tool for managing target programs, scope, recon data, findings, and report drafts.
+
+It demonstrates VardrSec’s approach to practical security tooling: structured workflows, API security controls, import automation, and documented manual testing methodology.
 
 ---
 
@@ -71,7 +80,7 @@ Building tools that support:
 
 ---
 
-## 📫 Contact
+## Contact
 
 - **GitHub**: [@jorge-aquino](https://github.com/jorge-aquino)
 - **Founder**: Jorge Aquino
