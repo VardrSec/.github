@@ -1,16 +1,10 @@
 # VardrSec
 
-### Independent offensive security research, private tooling, and ethical testing methodology.
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-API%20Security-blue" />
-  <img src="https://img.shields.io/badge/Research-Offensive%20Security-red" />
-  <img src="https://img.shields.io/badge/Tools-Private%20Research-green" />
-</p>
+Decoy-sensor research and open-source access-control tools.
 
 ## About VardrSec
 
-**VardrSec** is an independent offensive security research and tooling initiative focused on application security, API security, web application testing, and practical security automation.
+**VardrSec** is an independent security research and tooling initiative focused on application security, API security, web application testing, and practical security automation. It also runs SSH and API decoy sensors and publishes what they record.
 
 Founded by **Jorge Aquino**, VardrSec focuses on building security tools, studying real vulnerability classes, and documenting repeatable testing methods.
 
@@ -18,86 +12,24 @@ The project emphasizes issues that often require deeper manual analysis, includi
 
 ---
 
-## Private Research Tools
+## Open-source tools
 
-### VardrScanner
+| Tool | What it does | Language | License |
+|---|---|---|---|
+| [VardrGate](https://github.com/VardrSec/VardrGate) | Tests API authorization against a declared policy. It replays one request as every identity and reports where the result diverges from the policy. | Go | Apache-2.0 |
+| [VardrMap](https://github.com/VardrSec/VardrMap) | Multi-tenant engagement platform that keeps scope, authorization and findings in one place. It starts scans and authorization tests through VardrRunner and VardrGate. | Python | AGPL-3.0 |
+| [VardrRunner](https://github.com/VardrSec/VardrRunner) | Runs queued security jobs on the operator's machine and uploads the results to a backend. | Python | MIT |
 
-**VardrScanner** is a private API security testing framework under active development for authorized assessments, bug bounty research, and penetration testing workflows.
-Current focus areas include:
+In design: VardrScanner ([design docs](https://github.com/jorge-aquino/vardrscanner-docs)) and VardrForge. Neither is ready to use.
 
-- Authentication and authorization testing
-- IDOR / BOLA detection
-- API endpoint discovery
-- Injection testing
-- Security misconfiguration checks
-- Bug bounty and pentesting workflow support
+Bug reports and pull requests are welcome on every repository. Report vulnerabilities in the tools privately to contact@vardrsec.com.
 
-Public documentation and selected methodology notes are maintained through Jorge Aquino’s public GitHub profile.
+## Research
 
-## Public Projects
-
-### [VardrMap](https://github.com/jorge-aquino/VardrMap)
-
-**VardrMap** is a full-stack bug bounty workflow tool for managing target programs, scope, recon data, findings, and report drafts.
-
-It demonstrates VardrSec’s approach to practical security tooling: structured workflows, API security controls, import automation, and documented manual testing methodology.
-
----
-
-## Focus Areas
-
-### API Security Assessment
-
-Testing REST, GraphQL, and other API-driven applications for:
-
-- Broken authentication
-- Broken object level authorization
-- Privilege escalation
-- Mass assignment / excessive data exposure
-- Injection vulnerabilities
-- Business logic flaws
-- Security misconfigurations
-
-### Web Application Security
-
-Practical testing of modern web applications, including:
-
-- OWASP Top 10 vulnerabilities
-- Session and access control issues
-- Input validation weaknesses
-- Misconfigured security controls
-- Vulnerability verification and documentation
-
-### Security Tool Development
-
-Building tools that support:
-
-- Vulnerability discovery
-- Reconnaissance workflows
-- Security automation
-- Repeatable testing methodology
-- Research documentation
-
----
+VardrSec runs SSH and API decoys and publishes delayed, sanitized snapshots of what they record in the [Threat Observatory](https://vardrsec.com/observatory.html). Public data omits source IP addresses and credentials. Write-ups are on the [blog](https://vardrsec.com/blog.html).
 
 ## Contact
 
-- **GitHub**: [@jorge-aquino](https://github.com/jorge-aquino)
-- **Founder**: Jorge Aquino
-- **Focus**: API Security, Offensive Security Research, Security Tooling
-
----
-
-## Specializations
-
-`API Security` `Web Application Security` `Authorization Testing` `IDOR` `BOLA` `OWASP Top 10` `Bug Bounty` `Security Automation`
-
----
-
-<p align="center">
-  <b>Practical Security Research & Tooling | VardrSec</b>
-</p>
-
-<p align="center">
-  <sub>Building tools. Testing ethically. Documenting the process.</sub>
-</p>
+- Website: [vardrsec.com](https://vardrsec.com)
+- Email: contact@vardrsec.com
+- Maintainer: [@jorge-aquino](https://github.com/jorge-aquino)
