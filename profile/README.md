@@ -12,6 +12,13 @@ The project emphasizes issues that often require deeper manual analysis, includi
 
 ---
 
+## Platform distribution
+
+[VardrSec](https://github.com/VardrSec/VardrSec) provides Docker Compose installation
+and lifecycle management for the VardrMap, VardrRunner and VardrGate platform. It is
+a source-built alpha targeting Ubuntu 24.04/amd64, not a published release. See the
+[installation guide](https://github.com/VardrSec/VardrSec/blob/main/docs/installation.md).
+
 ## Open-source tools
 
 | Tool | What it does | Language | License |
@@ -20,7 +27,10 @@ The project emphasizes issues that often require deeper manual analysis, includi
 | [VardrMap](https://github.com/VardrSec/VardrMap) | Multi-tenant engagement platform that keeps scope, authorization and findings in one place. It starts scans and authorization tests through VardrRunner and VardrGate. | Python | AGPL-3.0 |
 | [VardrRunner](https://github.com/VardrSec/VardrRunner) | Runs queued security jobs on the operator's machine and uploads the results to a backend. | Python | MIT |
 
-In design: VardrScanner ([design docs](https://github.com/jorge-aquino/vardrscanner-docs)) and VardrForge. Neither is ready to use.
+In design: VardrScanner ([design docs](https://github.com/jorge-aquino/vardrscanner-docs)). It is not ready to use.
+
+VardrForge is a private, unreleased CLI prototype for generating scoped security
+tools and scripts.
 
 Bug reports and pull requests are welcome on every repository. Report vulnerabilities in the tools privately to contact@vardrsec.com.
 
